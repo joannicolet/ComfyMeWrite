@@ -53,6 +53,8 @@ form, input, div {
   color: black;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
 
 
 }
@@ -60,4 +62,11 @@ form, input, div {
   color: black;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 28px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.copy-container p {
+  font-size: 18px;
+  margin: 5px;
 }
