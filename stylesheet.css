@@ -82,6 +82,7 @@ border-radius: 4px;
 }
 .btn:hover {
   opacity: 1;
+  border: solid;
 }
 .more {
   background-color: #239b76;
