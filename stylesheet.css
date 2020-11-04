@@ -44,8 +44,8 @@ form, input, div {
 }
 .main {
   background-image: url('https://cutewallpaper.org/21/library-background-images/Library-Background-Image-30-Background-Pictures.png');
-  padding: 200px 180px;
-
+  padding: 240px 180px;
+opacity: 0.8;
   background-size: cover;
  text-align: center;
 }
