@@ -43,32 +43,31 @@ form, input, div {
 
 }
 .main {
-  background-image: url('https://www.google.com/search?q=library+background+png&sxsrf=ALeKk03GaqSmyM5oeBK2QaM1AJUlKfXuQg:1604395175791&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiK4KDkhebsAhV47HMBHSQlBlAQ_AUoAXoECAwQAw&biw=1510&bih=738#imgrc=U9YFhRXZRZUHHM');
+  background-image: url('https://cutewallpaper.org/21/library-background-images/Library-Background-Image-30-Background-Pictures.png');
   padding: 200px 180px;
 
   background-size: cover;
  text-align: center;
 }
 .copy-container h1 {
-  color: black;
+  color: white;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 30px;
   letter-spacing: 5px;
   margin-bottom: 10px;
 
 
+
 }
-.copy-container h2 {
-  color: black;
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 28px;
-  letter-spacing: 3px;
-  margin-bottom: 10px;
-}
+
+
 
 .copy-container p {
   font-size: 18px;
   margin: 5px;
+  color: white;
+  text-decoration: none;
+
 }
 .btn {
   padding-top: 12px;
