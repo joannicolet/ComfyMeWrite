@@ -112,4 +112,50 @@ border-radius: 4px;
   color: black;
 }
 
+.contact-form {
+  padding-top: 100px;
+  margin-top: 500px;
+}
+.contact-form p {
+  color: black;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+.footer {
+  background-color: #A0754E;
+  color:#FEFDFC;
+  height: 100px;
+  border: solid;
+  width: 100%;
+
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list{
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+  list-style: none;
+}
+
 
