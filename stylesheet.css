@@ -141,7 +141,7 @@ input, textarea {
   height: 100px;
   border: solid;
   width: 1060px;
-
+  margin: 0 auto;
 }
 
 .footer-logo {
