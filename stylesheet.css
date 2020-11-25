@@ -6,8 +6,17 @@ form, input, div {
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: left;
+}
+
 .body {
   font-family: "Lucida Console"
+  width: 100%;
 }
 .li {
   list-style: none;
@@ -17,6 +26,7 @@ form, input, div {
   color:#FEFDFC;
   height: 100px;
   border: solid;
+  width: 100%;
 }
 .header-logo {
   float: left;
@@ -42,12 +52,22 @@ form, input, div {
 
 
 }
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+
+}
 .main {
   background-image: url('https://cutewallpaper.org/21/library-background-images/Library-Background-Image-30-Background-Pictures.png');
   padding: 144px 144px;
-opacity: 0.8;
-  background-size: cover;
- text-align: center;
+  opacity: 0.8;
+  background-size: 1700px 750px;
+  text-align: center;
+  width: 100%;
 }
 .copy-container h1 {
   color: white;
@@ -71,45 +91,50 @@ opacity: 0.8;
 }
 .btn {
   padding-top: 12px;
-padding-bottom: 12px;
-padding-left: 24px;
-padding-right: 24px;
-color: white;
-display: inline-block;
-opacity: 0.8;
-border-radius: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
 }
 .btn:hover {
   opacity: 1;
 }
 .more {
   background-color: #239b76;
+  text-align: center;
 
 }
 
 .contents {
   height: 500px;
   margin-top: 100px;
+  width: 100%;
 }
 
-.section-title {
+.section-title  {
   border-bottom: 2px solid #dee7ec;
   font-size: 36px;
   padding-bottom: 15px;
+  padding-top: 15px;
   margin-bottom: 50px;
+  color: black;
 }
 
 .contents-item {
   float: left;
   margin-right: 40px;
   margin-left: 80px;
-  background-color: #F0E68C;
+  padding-left: 5px;
+  padding-right: 5px;
+  max-width: 1170px;
 }
 
 .contents-item p {
   font-size: 24px;
   margin-top: 30px;
-  color: black;
+  color: white;
 }
 
 .contact-form {
@@ -140,22 +165,36 @@ input, textarea {
   color:#FEFDFC;
   height: 100px;
   border: solid;
-  width: 1060px;
+  width: 700px;
   margin: 0 auto;
 }
 
-.footer-logo {
-  float: left;
+.footer h1{
+
   font-size: 32px;
-}
-
-.footer-list{
-  float: right;
-}
-
-.footer-list li {
-  padding-bottom: 20px;
-  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 
+
+ .footer p {
+
+  padding-bottom: 10px;
+  color: black;
+}
+
+@media (max-width: 1000px ) {
+  .contents-item {
+    width: 50%;
+  }
+
+
+@media (max-width: 670px ) {
+  .contents-item {
+    width: 100%;
+  }
+
+  * {
+    box-sizing: border-box
+  }
